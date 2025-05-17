@@ -25,7 +25,7 @@ ________________________________________
 2.	Добавить FRR на роутеры [apt-get install frr]
 3.	Добавить FRR в автозагрузку [systemctl enable  --now frr.service] + [systemctl status frr.service]
 4.	Включаем протокол eigrp [mcedit /etc/frr/daemons], затем [systemctl restart frr.service]
-vtysh 
+vtysh
 conf t
 router eigrp 1
 network ISP-HQ
@@ -34,7 +34,7 @@ network INTERNET
 do wr
 exit exit exit
 ip r
-5.	Заменить 0 на 1 на роутерах (3) [mcedit /etc/net/sysctl.conf]
+7.	Заменить 0 на 1 на роутерах (3) [mcedit /etc/net/sysctl.conf]
 vtysh
 show ip eigrp topology
 ________________________________________
