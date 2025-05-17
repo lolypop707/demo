@@ -25,18 +25,18 @@ ________________________________________
 2.	Добавить FRR на роутеры [apt-get install frr]
 3.	Добавить FRR в автозагрузку [systemctl enable  --now frr.service] + [systemctl status frr.service]
 4.	Включаем протокол eigrp [mcedit /etc/frr/daemons], затем [systemctl restart frr.service]
-vtysh
-conf t
-router eigrp 1
-network ISP-HQ
-network ISP-BR
-network INTERNET
-do wr
-exit exit exit
-ip r
-7.	Заменить 0 на 1 на роутерах (3) [mcedit /etc/net/sysctl.conf]
-vtysh
-show ip eigrp topology
+5.	vtysh
+6.	conf t
+7.	router eigrp 1
+8.	network ISP-HQ
+9.	network ISP-BR
+10.	network INTERNET
+11.	do wr
+12.	exit exit exit
+13.	ip r
+14.	Заменить 0 на 1 на роутерах (3) [mcedit /etc/net/sysctl.conf]
+15.	vtysh
+16.	show ip eigrp topology
 ________________________________________
 1.	Добавить пользователя на HQ-SRV / BR-SRV [useradd sshuser -u 1010] *
 2.	Установить пароль на пользователя [passwd sshuser] + [control sudoers]
