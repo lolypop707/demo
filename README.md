@@ -54,3 +54,5 @@ ________________________________________
 4.	Убираем # и меняем: Port; MaxAuthTries. Прописываем путь к Banner /etc/banner; Добавляем AllowUsers sshuser [mcedit /etc/openssh/sshd_config]
 5.	Добавляем текст в файл [mcedit /etc/banner]
 6.	Перезапускаем [systemctl restart sshd.service]
+
+![image](https://github.com/user-attachments/assets/4683ab8d-76d2-4c0a-8fc1-6e5980cd3c79)
