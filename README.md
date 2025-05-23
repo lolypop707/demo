@@ -35,8 +35,10 @@ ________________________________________
 12.	exit exit exit
 13.	ip r
 14.	Заменить 0 на 1 на роутерах (3) [mcedit /etc/net/sysctl.conf] (net.ipv4.ip_forward)
-15.	vtysh
-16.	show ip eigrp topology
+15.	Затем пишем - sysctl -p
+16.	sysctl net.ipv4.ip_forward=1
+17.	vtysh
+18.	show ip eigrp topology
 ________________________________________
 1.	Добавить пользователя на HQ-SRV / BR-SRV [useradd sshuser -u 1010] *
 2.	Установить пароль на пользователя [passwd sshuser] + [control sudoers]
