@@ -34,7 +34,7 @@ ________________________________________
 11.	do wr
 12.	exit exit exit
 13.	ip r
-14.	Заменить 0 на 1 на роутерах (3) [mcedit /etc/net/sysctl.conf]
+14.	Заменить 0 на 1 на роутерах (3) [mcedit /etc/net/sysctl.conf] (net.ipv4.ip_forward)
 15.	vtysh
 16.	show ip eigrp topology
 ________________________________________
