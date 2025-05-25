@@ -17,7 +17,7 @@ ________________________________________
 5.	Прописать [domainname au-team.irpo]
 6.	Создать папки для всех ens [mkdir /etc/net/ifaces/ens224] (кроме CLI/ens192)
 7.	Скопировать ens192/options на все ens [cp]
-8.	Отредактировать ens192/options (DHCP)
+8.	Отредактировать static на DHCP в ens192/options
 9.	Выдать IP на все ens (кроме ens192) [ipv4address]
 10.	Прописать шлюз для конечных устройств [ipv4route]
 ________________________________________
