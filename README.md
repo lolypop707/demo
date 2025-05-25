@@ -11,7 +11,7 @@ HQ-NET — 192.168.1.0 / 29 (не более 64)
 BR-NET — 192.168.3.0 / 29 (не более 32)
 ________________________________________
 1.	Сделать везде Restore Snapshot 
-2.	Добавить везде Network Adapter
+2.	Добавить везде АДАПТЕРЫ
 3.	Сверить ens с MAC-адресами и записать в WORD
 4.	Задать hostname (ISP.au-team.irpo) [mcedit /etc/hostname]
 5.	Прописать [domainname au-team.irpo]
