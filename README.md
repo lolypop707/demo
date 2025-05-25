@@ -58,3 +58,4 @@ ________________________________________
 6.	Перезапускаем [systemctl restart sshd.service]
 
 ![image](https://github.com/user-attachments/assets/4683ab8d-76d2-4c0a-8fc1-6e5980cd3c79)
+![image](https://github.com/user-attachments/assets/0f159181-aa18-468c-ad20-b8e15b87a93a)
