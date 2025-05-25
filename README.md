@@ -15,7 +15,7 @@ ________________________________________
 3.	Сверить ens с MAC-адресами и записать в WORD
 4.	Задать hostname (ISP.au-team.irpo) [mcedit /etc/hostname]
 5.	Прописать [domainname au-team.irpo]
-6.	Создать папки для всех ens [mkdir]
+6.	Создать папки для всех ens [mkdir] (кроме CLI)
 7.	Скопировать ens192/options на все [cp]
 8.	Отредактировать ens192/options (DHCP)
 9.	Выдать IP на ens (кроме ens192) [ipv4address]
